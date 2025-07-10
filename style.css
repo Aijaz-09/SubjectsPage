@@ -1,0 +1,47 @@
+body {
+  font-family: "Libertinus Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.course-container {
+    display: flex;
+    justify-content: space-evenly;
+    height: 100vh;
+    align-items: center;
+}
+
+.course-card {
+    background-color:rgba(200, 206, 205, 0.349);
+    border-radius: 3%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.course-details > *{
+    list-style: none;
+    padding-bottom: 15px;
+    padding-right: 30px;
+}
+li {
+    list-style: none;
+}
+.course-button {
+    border: none;
+    background-color:orangered;
+    color: white;
+    padding: 20px;
+    border-radius: 10%;
+}
+
+@media (max-width: 1285px) {
+    .course-container {
+        flex-direction: column;
+        height: 100%;
+    }
+    .course-card {
+        margin-bottom: 10px;
+    }
+}
