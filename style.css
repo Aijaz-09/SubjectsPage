@@ -2,14 +2,18 @@ body {
   font-family: "Libertinus Mono", monospace;
   font-weight: 400;
   font-style: normal;
+  text-align: center;
 }
 
+h1 {
+    color:rgb(153, 165, 165);
+    font-size: 300%;
+}
 
 .course-container {
     display: flex;
     justify-content: space-evenly;
     height: 100vh;
-    align-items: center;
 }
 
 .course-card {
